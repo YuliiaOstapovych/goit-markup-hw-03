@@ -27,7 +27,9 @@ body {
   background-color: var(--white);
   color: var(--slate);
 }
-
+img {
+  display: block;
+}
 .container {
   width: 100%;
   max-width: 1158px;
@@ -197,7 +199,6 @@ body {
 }
 .technologies-item {
   width: calc((100% - 24px * 2) / 3);
-  display: block;
 }
 .technologies-titel {
   color: var(--navyblue);
@@ -230,6 +231,7 @@ body {
 .team-container {
   margin-top: 32px;
   margin-bottom: 32px;
+  padding: 32px 16px;
 }
 .team-subtitle {
   color: var(--navyblue);
@@ -238,6 +240,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   font-weight: 500;
+  margin-bottom: 8px;
 }
 .team-list {
   display: flex;
@@ -247,7 +250,6 @@ body {
   background-color: var(--white);
   width: calc((100% - 24px * 3) / 4);
   border-radius: 0px 0px 4px 4px;
-  display: block;
 }
 .team-item-text {
   color: var(--slate);
@@ -322,9 +324,6 @@ body {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-}
-.pfograms-item-link {
-  display: block;
 }
 
 .programs-item {
